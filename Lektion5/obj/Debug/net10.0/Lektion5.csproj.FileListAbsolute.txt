@@ -1,0 +1,15 @@
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\bin\Debug\net10.0\Lektion5.exe
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\bin\Debug\net10.0\Lektion5.deps.json
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\bin\Debug\net10.0\Lektion5.runtimeconfig.json
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\bin\Debug\net10.0\Lektion5.dll
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\bin\Debug\net10.0\Lektion5.pdb
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.AssemblyInfoInputs.cache
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.AssemblyInfo.cs
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.csproj.CoreCompileInputs.cache
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.sourcelink.json
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.dll
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\refint\Lektion5.dll
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.pdb
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\Lektion5.genruntimeconfig.cache
+C:\Users\d34th\Code\SUVNET\OOP1\Lektion5\obj\Debug\net10.0\ref\Lektion5.dll
