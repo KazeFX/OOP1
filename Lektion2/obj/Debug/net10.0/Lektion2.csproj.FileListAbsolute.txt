@@ -1,0 +1,14 @@
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\bin\Debug\net10.0\Lektion2.exe
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\bin\Debug\net10.0\Lektion2.deps.json
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\bin\Debug\net10.0\Lektion2.runtimeconfig.json
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\bin\Debug\net10.0\Lektion2.dll
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\bin\Debug\net10.0\Lektion2.pdb
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.AssemblyInfoInputs.cache
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.AssemblyInfo.cs
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.csproj.CoreCompileInputs.cache
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.dll
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\refint\Lektion2.dll
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.pdb
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\Lektion2.genruntimeconfig.cache
+C:\Users\d34th\OneDrive\Skrivbord\SUVNET\OOP1\Lektion2\obj\Debug\net10.0\ref\Lektion2.dll
