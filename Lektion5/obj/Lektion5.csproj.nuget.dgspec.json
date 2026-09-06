@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj": {}
+    "C:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj": {}
   },
   "projects": {
-    "c:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj": {
+    "C:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj",
+        "projectUniqueName": "C:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj",
         "projectName": "Lektion5",
-        "projectPath": "c:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj",
+        "projectPath": "C:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\Lektion5.csproj",
         "packagesPath": "C:\\Users\\d34th\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\obj\\",
+        "outputPath": "C:\\Users\\d34th\\Code\\SUVNET\\OOP1\\Lektion5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
