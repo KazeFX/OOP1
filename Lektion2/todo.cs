@@ -1,4 +1,5 @@
 using System.Net.Mime;
+using System.Xml;
 
 public class todo
 {
@@ -7,7 +8,7 @@ public class todo
         string sourcePath = "Todo_list.txt";
 
         if (!File.Exists(sourcePath)) {
-            File.Create("Todo_list.txt").Close();
+            File.Create("Todo_list.md").Close();
         }
         
 
@@ -25,6 +26,15 @@ public class todo
 
             case "done":
                 string[] todoList = File.ReadAllLines(sourcePath);
+                int taskCompleted = int.Parse(args[1]);
+                todoList[taskCompleted] = $"~~{todoList[taskCompleted]}~~";
+                File.AppendAllLines(sourcePath, todoList);
+                break;
+
+            case "remove":
+                string[] todoList2 = File.ReadAllLines(sourcePath);
+                int removeTask = int.Parse(args[1]);
+                todoList2[removeTask] = "";
                 break;
         }
     }
