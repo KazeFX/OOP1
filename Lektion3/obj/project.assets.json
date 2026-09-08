@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\OOP1\\Lektion3\\Lektion3.csproj",
+      "projectUniqueName": "C:\\Users\\d34th\\Code\\OOP1\\Lektion3\\Lektion3.csproj",
       "projectName": "Lektion3",
-      "projectPath": "D:\\Code\\OOP1\\Lektion3\\Lektion3.csproj",
+      "projectPath": "C:\\Users\\d34th\\Code\\OOP1\\Lektion3\\Lektion3.csproj",
       "packagesPath": "C:\\Users\\d34th\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\OOP1\\Lektion3\\obj\\",
+      "outputPath": "C:\\Users\\d34th\\Code\\OOP1\\Lektion3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.400"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
@@ -75,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
