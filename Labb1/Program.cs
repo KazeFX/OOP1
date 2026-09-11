@@ -1,5 +1,10 @@
-﻿using System.Runtime.InteropServices;
-
+/*
+Labb av:
+Peter Miscevic
+Christoffer Bohlin
+Max Jalderyd
+Johannes Stålsjö
+*/
 class Program
 {
     static decimal baseTariff = 49.0m;
