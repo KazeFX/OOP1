@@ -55,7 +55,7 @@ class Program
     }
 
     /*
-    Prompts the user for all inputs required to start the calculateShippingPerPackage method.
+    Prompts the user for all inputs required to start the calculateShippingPerPackage method
     */
     static void userPrompt()
     {
@@ -84,7 +84,7 @@ class Program
     }
 
     /*
-    Prints a receipt to the console with the current values of fields.
+    Prints a receipt to the console with the current values of fields
     */
     static void printReceipt()
     {
@@ -107,7 +107,7 @@ class Program
     }
 
     /*
-    Calculates shipping for a package.
+    Calculates shipping for a package
     */
     static decimal calculateShippingPerPackage()
     {
@@ -150,7 +150,7 @@ class Program
     }
 
     /*
-    Resets all variable fields to default.
+    Resets all field variables to default values
     */
     static void resetFields()
     {
