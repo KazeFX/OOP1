@@ -138,7 +138,6 @@ class Program
             heavyGoodsSurcharge = (weight - 20) * 30m;
             weightTariff += heavyGoodsSurcharge;
             sum += weightTariff;
-
         }
         
         if (insurance)
