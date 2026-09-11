@@ -123,7 +123,7 @@ class Program
             }
         }
 
-        else
+        else // If not a member
         {
             weightTariff += (weight - 2) * 10m;
 
