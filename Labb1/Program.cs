@@ -110,36 +110,31 @@ class Program
 
         if (membership)
         {
+            weightTariff += (weight - 5) * 10m;
+
             if (weight > 5 && weight <= 20)
             {
-                weightTariff += (weight - 5) * 10m;
-                sum += weightTariff;
-            }
-            else if (weight > 20)
-            {
-                weightTariff = 150m;
-                heavyGoodsSurcharge = (weight - 20) * 40m;
-                weightTariff += heavyGoodsSurcharge;
                 sum += weightTariff;
             }
         }
 
         else
         {
+            weightTariff += (weight - 2) * 10m;
+
             if (weight > 5 && weight <= 20)
             {
-                weightTariff += (weight - 2) * 10m;
-                sum += weightTariff;
-            }
-            else if (weight > 20)
-            {
-                weightTariff = 180m;
-                heavyGoodsSurcharge = (weight - 20) * 40m;
-                weightTariff += heavyGoodsSurcharge;
                 sum += weightTariff;
             }
         }
 
+        if (weight > 20)
+        {
+            heavyGoodsSurcharge = (weight - 20) * 30m;
+            weightTariff += heavyGoodsSurcharge;
+            sum += weightTariff;
+
+        }
         if (insurance)
         {
             insuranceCost = value * 0.01m;
