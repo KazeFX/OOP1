@@ -118,7 +118,7 @@ class Program
             else if (weight > 20)
             {
                 weightTariff = 150m;
-                heavyGoodsSurcharge = (weight - 20) * 30m;
+                heavyGoodsSurcharge = (weight - 20) * 40m;
                 weightTariff += heavyGoodsSurcharge;
                 sum += weightTariff;
             }
@@ -134,7 +134,7 @@ class Program
             else if (weight > 20)
             {
                 weightTariff = 180m;
-                heavyGoodsSurcharge = (weight - 20) * 30m;
+                heavyGoodsSurcharge = (weight - 20) * 40m;
                 weightTariff += heavyGoodsSurcharge;
                 sum += weightTariff;
             }
