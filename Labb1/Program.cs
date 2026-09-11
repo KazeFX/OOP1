@@ -29,7 +29,6 @@ class Program
 
             string input = Console.ReadLine();
 
-
             switch (input)
             {
                 case "1":
@@ -49,6 +48,9 @@ class Program
         }
     }
 
+    /*
+    Prompts the user for all inputs required to start the calculateShippingPerPackage method.
+    */
     static void userPrompt()
     {
         Console.Write("Input sender: ");
@@ -75,24 +77,32 @@ class Program
         }
     }
 
+    /*
+    Prints a receipt to the console with the current values of fields.
+    */
     static void printReceipt()
     {
+        Console.WriteLine();
         Console.WriteLine("FRAKTVITTO");
         Console.WriteLine("---------------------------------");
         Console.WriteLine($"Avsändare: {sender}");
         Console.WriteLine($"Vikt: {weight}");
         Console.WriteLine($"Innehållets värd: {value}");
-        Console.WriteLine($"Medlem: {membership}");
-        Console.WriteLine($"Försäkring: {insurance}");
+        Console.WriteLine($"Medlem: {(membership ? "Ja" : "Nej")}");
+        Console.WriteLine($"Försäkring: {(insurance ? "Ja" : "Nej")}");
         Console.WriteLine();
-        Console.WriteLine($"Grundavgift: \t {baseTariff,-10}");
-        Console.WriteLine($"Viktavgift: \t {weightTariff,-10}");
-        Console.WriteLine($"Tunggodstillägg: \t {heavyGoodsSurcharge,-10}");
-        Console.WriteLine($"Försäkringsavgift: \t {insuranceCost,-10}");
+        Console.WriteLine($"{"Grundavgift:",-24}{baseTariff,8:0.00}");
+        Console.WriteLine($"{"Viktavgift:",-24}{weightTariff,8:0.00}");
+        Console.WriteLine($"{"Tunggodstillägg:",-24}{heavyGoodsSurcharge,8:0.00}");
+        Console.WriteLine($"{"Försäkringsavgift:",-24}{insuranceCost,8:0.00}");
         Console.WriteLine("---------------------------------");
         Console.WriteLine($"Totalt att betala: \t {sum}");
+        Console.WriteLine();
     }
 
+    /*
+    Calculates shipping for a package.
+    */
     static decimal calculateShippingPerPackage()
     {
         sum = baseTariff;
@@ -111,20 +121,21 @@ class Program
                 weightTariff += heavyGoodsSurcharge;
                 sum += weightTariff;
             }
-            else
+        }
+
+        else
+        {
+            if (weight > 5 && weight <= 20)
             {
-                if (weight > 5 && weight <= 20)
-                {
-                    weightTariff += (weight - 2) * 10m;
-                    sum += weightTariff;
-                }
-                else if (weight > 20)
-                {
-                    weightTariff = 180m;
-                    heavyGoodsSurcharge = (weight - 20) * 30m;
-                    weightTariff += heavyGoodsSurcharge;
-                    sum += weightTariff;
-                }
+                weightTariff += (weight - 2) * 10m;
+                sum += weightTariff;
+            }
+            else if (weight > 20)
+            {
+                weightTariff = 180m;
+                heavyGoodsSurcharge = (weight - 20) * 30m;
+                weightTariff += heavyGoodsSurcharge;
+                sum += weightTariff;
             }
         }
 
@@ -137,6 +148,9 @@ class Program
         return sum;
     }
 
+    /*
+    Resets all variable fields to default.
+    */
     static void resetFields()
     {
         membership = false;
