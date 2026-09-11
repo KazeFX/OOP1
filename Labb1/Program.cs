@@ -122,7 +122,7 @@ class Program
         {
             weightTariff += (weight - 2) * 10m;
 
-            if (weight > 5 && weight <= 20)
+            if (weight > 2 && weight <= 20)
             {
                 sum += weightTariff;
             }
