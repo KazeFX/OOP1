@@ -140,6 +140,7 @@ class Program
             sum += weightTariff;
 
         }
+        
         if (insurance)
         {
             insuranceCost = value * 0.01m;
