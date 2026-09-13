@@ -1,5 +1,10 @@
-﻿using System.Runtime.InteropServices;
-
+﻿/*
+Labb av:
+Peter Miscevic
+Christoffer Bohlin
+Max Jalderyd
+Johannes Stålsjö
+*/
 class Program
 {
     static decimal baseTariff = 49.0m;
@@ -49,8 +54,9 @@ class Program
         }
     }
 
+
     /*
-    Prompts the user for all inputs required to start the calculateShippingPerPackage method.
+    Prompts the user for all inputs required to start the calculateShippingPerPackage method
     */
     static void userPrompt()
     {
@@ -78,8 +84,9 @@ class Program
         }
     }
 
+
     /*
-    Prints a receipt to the console with the current values of fields.
+    Prints a receipt to the console with the current values of fields
     */
     static void printReceipt()
     {
@@ -101,8 +108,9 @@ class Program
         Console.WriteLine();
     }
 
+
     /*
-    Calculates shipping for a package.
+    Calculates shipping for a package
     */
     static decimal calculateShippingPerPackage()
     {
@@ -118,7 +126,7 @@ class Program
             }
         }
 
-        else
+        else // If not a member
         {
             weightTariff += (weight - 2) * 10m;
 
@@ -133,8 +141,8 @@ class Program
             heavyGoodsSurcharge = (weight - 20) * 30m;
             weightTariff += heavyGoodsSurcharge;
             sum += weightTariff;
-
         }
+
         if (insurance)
         {
             insuranceCost = value * 0.01m;
@@ -144,8 +152,9 @@ class Program
         return sum;
     }
 
+
     /*
-    Resets all variable fields to default.
+    Resets all field variables to default values
     */
     static void resetFields()
     {
