@@ -138,10 +138,11 @@ class Program
 
         if (weight > 20)
         {
-            heavyGoodsSurcharge = (weight - 20) * 30m;
+            heavyGoodsSurcharge = (weight - 20) * 40m;
             weightTariff += heavyGoodsSurcharge;
             sum += weightTariff;
         }
+
         if (insurance)
         {
             insuranceCost = value * 0.01m;
