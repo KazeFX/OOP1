@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C#: Lektion7",
+            "name": "C#: Lektion9",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/Lektion7/Lektion7.csproj"
+            "projectPath": "${workspaceFolder}/Lektion9/Lektion9.csproj"
         }
     ]
 }
