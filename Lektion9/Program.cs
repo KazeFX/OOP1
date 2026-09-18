@@ -59,7 +59,7 @@ class Customer
         this.Balance = balance;
     }
 
-    void Buy(Product product)
+    public void Buy(Product product)
     {
         if (product.Price <= this.Balance)
         {
@@ -72,10 +72,23 @@ class Customer
 
     }
 
-    decimal ShowMoney()
+    public decimal ShowMoney()
     {
         return this.Balance;
     }
 
 
+}
+
+class Program
+{
+    public static void Main()
+    {
+        Customer newCustomer = new Customer("Hej", 100.0m);
+        Product newProduct = new Product("Cola", 20.0m);
+
+        Console.WriteLine(newCustomer.ShowMoney());
+        newCustomer.Buy(newProduct);
+        Console.WriteLine(newCustomer.ShowMoney());
+    }
 }
