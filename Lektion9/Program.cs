@@ -76,9 +76,37 @@ class Customer
     {
         return this.Balance;
     }
+}
 
+
+class Book
+{
+    public string Title { get; private set; }
+    public string Author { get; private set; }
+    public bool IsBorrowerd { get; private set; }
+
+    public void Borrow()
+    {
+        this.IsBorrowerd = true;
+    }
+
+    public void Return()
+    {
+        this.IsBorrowerd = false;
+    }
+
+    public void ShowInfo()
+    {
+        Console.WriteLine($"{this.Title} by {this.Author}");
+    }
+}
+
+
+class Library
+{
 
 }
+
 
 class Program
 {
